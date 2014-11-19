@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+C:\Users\Vivian\Documents\GitHub\Labs\.metadata\.plugins\org.eclipse.jdt.core
+2139723232.index
+1063188598.index
+2399310778.index

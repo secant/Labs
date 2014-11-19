@@ -1,0 +1,43 @@
+Enter the first name of person 1: A
+
+Enter the middle name of person 1: Cool
+
+Enter the last name of person 1: Name
+
+Enter the first name of person 2: A
+
+Enter the middle name of person 2: Cooler
+
+Enter the last name of person 2: Name
+First-middle-last: A Cool Name
+First-middle-last: A Cooler Name
+Last-first-middle: Name, A Cool
+Last-first-middle: Name, A Cooler
+Initials: ACN
+Initials: ACN
+Length: 9
+Length: 11
+The names are equal: false
+
+/*********************************************/
+
+Enter the first name of person 1: A
+
+Enter the middle name of person 1: Cool
+
+Enter the last name of person 1: Name
+
+Enter the first name of person 2: A
+
+Enter the middle name of person 2: Cool
+
+Enter the last name of person 2: Name
+First-middle-last: A Cool Name
+First-middle-last: A Cool Name
+Last-first-middle: Name, A Cool
+Last-first-middle: Name, A Cool
+Initials: ACN
+Initials: ACN
+Length: 9
+Length: 9
+The names are equal: true
