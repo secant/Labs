@@ -1,0 +1,78 @@
+
+public class Account 
+{
+	private double balance;
+	private String name;
+	private long acctNum; 
+	private static int numAcct; //stores number of accounts created
+
+	public Account(double initBal, String owner, long number) // Constructor --initializes balance, owner, and account number
+	{
+		balance = initBal;
+		name = owner;
+		acctNum = number;
+		numAcct++;
+	}
+
+	public void withdraw(double amount) // Checks to see if balance is sufficient for withdrawal.
+										//If so, decrements balance by amount; if not, prints message.
+	{
+		if (balance >= amount)
+			balance -= amount;
+		else
+			System.out.println("Insufficient funds");
+	}
+
+	public void deposit(double amount) // Adds deposit amount to balance.
+	{
+		balance += amount;
+	}
+
+	public double getBalance() // Returns balance.
+	{
+		return balance;
+	}
+
+	public String toString() // Returns a string containing the name, account number, and balance.
+	{
+		return String.format("Name: %s\nAcct #: %d\nBalance: $%.2f", name, acctNum, balance);
+	}
+
+	public double chargeFee() // Deducts $10 service fee
+	{
+		balance -= 10;
+		return balance;
+	}
+
+	public String changeName(String newName) // Changes the name on the account
+	{
+		name = newName;
+		return name;
+	}
+	
+	public static int numAccounts() // Returns number of accounts
+	{
+		return numAcct;
+	}
+	
+	public void close() // Appends "CLOSED" to account name and sets balance to 0
+	{
+		name = name.concat("CLOSED");
+		balance = 0;
+		numAcct--;
+	}
+	
+	public static Account consolidate(Account acct1, Account acct2)
+	{
+		if(acct1.name.equals(acct2.name) && acct1.acctNum != acct2.acctNum)
+		{
+			double newBal = acct1.balance + acct2.balance;
+			Account newAcct = new Account (newBal, acct1.name, acct1.acctNum);
+			acct1.close();
+			acct2.close();
+			numAcct--;
+			return newAcct;
+		}
+		return null;
+	}
+}

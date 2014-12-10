@@ -1,0 +1,48 @@
+Option 1: Transfer from account1 to account2 (enter 1)
+Option 2: Transfer from account2 to account1 (enter 2)
+Option 3: Quit (enter 3)
+1
+How much to transfer? 
+100.5
+
+$100.50 was transferred FROM Bob TO Joe. 
+Name: Bob
+Acct #: 4
+Balance: $899.50
+Name: Joe
+Acct #: 5
+Balance: $2100.50
+
+Option 1: Transfer from account1 to account2 (enter 1)
+Option 2: Transfer from account2 to account1 (enter 2)
+Option 3: Quit (enter 3)
+2
+How much to transfer? 
+500.6
+
+$500.60 was transferred FROM Joe TO Bob. 
+Name: Bob
+Acct #: 4
+Balance: $1400.10
+Name: Joe
+Acct #: 5
+Balance: $1599.90
+
+Option 1: Transfer from account1 to account2 (enter 1)
+Option 2: Transfer from account2 to account1 (enter 2)
+Option 3: Quit (enter 3)
+2
+How much to transfer? 
+50000
+Insufficient funds
+Name: Bob
+Acct #: 4
+Balance: $1400.10
+Name: Joe
+Acct #: 5
+Balance: $1599.90
+
+Option 1: Transfer from account1 to account2 (enter 1)
+Option 2: Transfer from account2 to account1 (enter 2)
+Option 3: Quit (enter 3)
+3
