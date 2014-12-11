@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Comparison 
+{
+public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter 3 strings: ");
+		String a = scan.nextLine();
+		String b = scan.nextLine();
+		String c = scan.nextLine();
+		System.out.printf("The largest string out of the set %s, %s, %s is %s", a, b, c, Compare3.largest(a,b,c));
+	}
+}

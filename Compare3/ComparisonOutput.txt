@@ -1,0 +1,10 @@
+Enter 3 strings: 
+bob
+Bob
+BOB
+The largest string out of the set {bob, Bob, BOB} is bob
+Enter 3 integers: 
+1
+14
+14
+The largest integer out of the set {1, 14, 14} is 14
