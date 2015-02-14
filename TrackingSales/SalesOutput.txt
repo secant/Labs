@@ -1,24 +1,25 @@
 How many sales are you entering?: 7
 Enter sales for salesperson 1: $1
-Enter sales for salesperson 2: $44
-Enter sales for salesperson 3: $3
-Enter sales for salesperson 4: $2
+Enter sales for salesperson 2: $-45
+Enter sales for salesperson 3: $33
+Enter sales for salesperson 4: $0
 Enter sales for salesperson 5: $33
-Enter sales for salesperson 6: $44
-Enter sales for salesperson 7: $22
+Enter sales for salesperson 6: $11
+Enter sales for salesperson 7: $2
 
 Salesperson Sales
---------------------
-Total sales: 149
-Average sales: 21.285714285714285
-Highest sale: 44
-Minimum sale: 1
+----------------
+Total sales: $35
+Average sales: $5.0
+Highest sale: $33 by Salesperson 2
+Minimum sale: $-45 by Salesperson 1
 
 Enter a sales value.
-We will print the sales IDs of people who met or exceeded that value.
-22
-Salesperson #1: $44 
+This will return the IDs of people who met or exceeded that value.
+
+2
+Salesperson #2: $33 
 Salesperson #4: $33 
-Salesperson #5: $44 
-Salesperson #6: $22 
+Salesperson #5: $11 
+Salesperson #6: $2 
 Total: 4

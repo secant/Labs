@@ -1,0 +1,17 @@
+How many answers to this key are there?
+6
+Please enter the answers, separated by a space.
+1 4 5 6 99 5
+Please enter the student's responses, separated by a space.
+3 4 3 1 22 6 7
+Number correct: 1
+Percent correct: 16.67%
+Grade another quiz? (y/n)
+y
+Please enter the student's responses, separated by a space.
+3 4 3 2 66 5
+Number correct: 2
+Percent correct: 33.33%
+Grade another quiz? (y/n)
+n
+Closing program.

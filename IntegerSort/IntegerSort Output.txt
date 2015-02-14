@@ -1,0 +1,245 @@
+ Menu 
+ ====
+0: Quit
+1: Create a new list (** do this first!! **)
+2: Sort the list using selection sort
+3: Find an element in the list using linear search
+4: Print the list
+5: Replace an item on the list
+6: Replace all items on a list of a certain value
+7: Sort the list in decreasing order.
+8: Perform a binary search for a number (**sort in decreasing order first**)
+
+Enter your choice: 1
+How big should the list be?
+20
+
+ Menu 
+ ====
+0: Quit
+1: Create a new list (** do this first!! **)
+2: Sort the list using selection sort
+3: Find an element in the list using linear search
+4: Print the list
+5: Replace an item on the list
+6: Replace all items on a list of a certain value
+7: Sort the list in decreasing order.
+8: Perform a binary search for a number (**sort in decreasing order first**)
+
+Enter your choice: 4
+0:	11
+1:	81
+2:	12
+3:	74
+4:	4
+5:	10
+6:	69
+7:	35
+8:	25
+9:	46
+10:	1
+11:	36
+12:	20
+13:	4
+14:	14
+15:	96
+16:	99
+17:	54
+18:	49
+19:	58
+
+ Menu 
+ ====
+0: Quit
+1: Create a new list (** do this first!! **)
+2: Sort the list using selection sort
+3: Find an element in the list using linear search
+4: Print the list
+5: Replace an item on the list
+6: Replace all items on a list of a certain value
+7: Sort the list in decreasing order.
+8: Perform a binary search for a number (**sort in decreasing order first**)
+
+Enter your choice: 5
+Enter the old number you want to replace: 10
+Enter the new number: 14
+
+ Menu 
+ ====
+0: Quit
+1: Create a new list (** do this first!! **)
+2: Sort the list using selection sort
+3: Find an element in the list using linear search
+4: Print the list
+5: Replace an item on the list
+6: Replace all items on a list of a certain value
+7: Sort the list in decreasing order.
+8: Perform a binary search for a number (**sort in decreasing order first**)
+
+Enter your choice: 4
+0:	11
+1:	81
+2:	12
+3:	74
+4:	4
+5:	14
+6:	69
+7:	35
+8:	25
+9:	46
+10:	1
+11:	36
+12:	20
+13:	4
+14:	14
+15:	96
+16:	99
+17:	54
+18:	49
+19:	58
+
+ Menu 
+ ====
+0: Quit
+1: Create a new list (** do this first!! **)
+2: Sort the list using selection sort
+3: Find an element in the list using linear search
+4: Print the list
+5: Replace an item on the list
+6: Replace all items on a list of a certain value
+7: Sort the list in decreasing order.
+8: Perform a binary search for a number (**sort in decreasing order first**)
+
+Enter your choice: 6
+Enter the old number you want to replace: 4
+Enter the new number: 3
+
+ Menu 
+ ====
+0: Quit
+1: Create a new list (** do this first!! **)
+2: Sort the list using selection sort
+3: Find an element in the list using linear search
+4: Print the list
+5: Replace an item on the list
+6: Replace all items on a list of a certain value
+7: Sort the list in decreasing order.
+8: Perform a binary search for a number (**sort in decreasing order first**)
+
+Enter your choice: 4
+0:	11
+1:	81
+2:	12
+3:	74
+4:	3
+5:	14
+6:	69
+7:	35
+8:	25
+9:	46
+10:	1
+11:	36
+12:	20
+13:	3
+14:	14
+15:	96
+16:	99
+17:	54
+18:	49
+19:	58
+
+ Menu 
+ ====
+0: Quit
+1: Create a new list (** do this first!! **)
+2: Sort the list using selection sort
+3: Find an element in the list using linear search
+4: Print the list
+5: Replace an item on the list
+6: Replace all items on a list of a certain value
+7: Sort the list in decreasing order.
+8: Perform a binary search for a number (**sort in decreasing order first**)
+
+Enter your choice: 7
+
+ Menu 
+ ====
+0: Quit
+1: Create a new list (** do this first!! **)
+2: Sort the list using selection sort
+3: Find an element in the list using linear search
+4: Print the list
+5: Replace an item on the list
+6: Replace all items on a list of a certain value
+7: Sort the list in decreasing order.
+8: Perform a binary search for a number (**sort in decreasing order first**)
+
+Enter your choice: 4
+0:	99
+1:	96
+2:	81
+3:	74
+4:	69
+5:	58
+6:	54
+7:	49
+8:	46
+9:	36
+10:	35
+11:	25
+12:	20
+13:	14
+14:	14
+15:	12
+16:	11
+17:	3
+18:	3
+19:	1
+
+ Menu 
+ ====
+0: Quit
+1: Create a new list (** do this first!! **)
+2: Sort the list using selection sort
+3: Find an element in the list using linear search
+4: Print the list
+5: Replace an item on the list
+6: Replace all items on a list of a certain value
+7: Sort the list in decreasing order.
+8: Perform a binary search for a number (**sort in decreasing order first**)
+
+Enter your choice: 8
+What number are you searching for?
+1
+Index number: 19
+
+ Menu 
+ ====
+0: Quit
+1: Create a new list (** do this first!! **)
+2: Sort the list using selection sort
+3: Find an element in the list using linear search
+4: Print the list
+5: Replace an item on the list
+6: Replace all items on a list of a certain value
+7: Sort the list in decreasing order.
+8: Perform a binary search for a number (**sort in decreasing order first**)
+
+Enter your choice: 8
+What number are you searching for?
+14
+Index number: 14
+
+ Menu 
+ ====
+0: Quit
+1: Create a new list (** do this first!! **)
+2: Sort the list using selection sort
+3: Find an element in the list using linear search
+4: Print the list
+5: Replace an item on the list
+6: Replace all items on a list of a certain value
+7: Sort the list in decreasing order.
+8: Perform a binary search for a number (**sort in decreasing order first**)
+
+Enter your choice: 0

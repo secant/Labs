@@ -4,7 +4,8 @@
  * Last modified: 01/12/2015
  * This program
  * (1) Asks the user for the amount of sales to input
- * (2) Returns the average, max, and min of the entered sales
+ * (2) Returns the average, max, and min of the entered sales (along with
+ * 	   sales IDs)
  * (3) Asks the user to enter a sales number
  * (4) Returns the sales IDs of all the people who met or exceeded that number
  *     and the amount of people who met or exceeded that number.
@@ -26,6 +27,8 @@ public class Sales
 		sales[0] = scan.nextInt();
 		int minSale = sales[0];
 		int maxSale = sales[0];
+		int maxSaleID = 0;
+		int minSaleID = 0;
 		for (int i=1; i<sales.length; i++) //function takes care of rest of the entries
 		{
 			System.out.print("Enter sales for salesperson " + (i + 1) + ": $");
@@ -33,10 +36,12 @@ public class Sales
 	        if (sales [i] > maxSale)
 	        {
 	        	maxSale = sales[i];
+	        	maxSaleID = i;
 	        }
 	        if (sales [i] < minSale)
 	        {
 	        	minSale = sales[i];
+	        	minSaleID = i;
 	        }
 	    }
 		System.out.println("\nSalesperson Sales"); System.out.println("----------------"); 
@@ -45,10 +50,10 @@ public class Sales
 		{
 			sum += sales[i];
 	    }
-		System.out.println("Total sales: " + sum); 
-		System.out.println("Average sales: " + (double) sum / salesPeople);
-		System.out.println("Highest sale: " + maxSale);
-		System.out.println("Minimum sale: " + minSale);
+		System.out.println("Total sales: $" + sum); 
+		System.out.println("Average sales: $" + (double) sum / salesPeople);
+		System.out.println("Highest sale: $" + maxSale + " by Salesperson " + maxSaleID);
+		System.out.println("Minimum sale: $" + minSale + " by Salesperson " + minSaleID);
 		
 		System.out.println("\nEnter a sales value.");
 		System.out.println("This will return the IDs of people who met or exceeded that value.");
