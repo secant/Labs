@@ -1,8 +1,9 @@
-// ***************************************************************
-//   Item.java
-//
-//   Represents an item in a shopping cart.
-// ***************************************************************
+/**
+ * Item.java
+ * Author: Vivian Fang, pd. 1
+ * Revised 02/15/15
+ * Represents an item in a shopping cart.
+ */
 
 import java.text.NumberFormat;
 

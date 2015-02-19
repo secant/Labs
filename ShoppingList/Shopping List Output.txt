@@ -1,0 +1,70 @@
+Enter the name of the item: Potatoes
+Enter the unit price: 5
+Enter the quantity: 2
+
+Shopping Cart
+
+Item		Unit Price	Quantity	Total
+Potatoes	$5.00	2	$10.00
+
+Total Price: $10.00
+
+Continue shopping (y/n)? y
+Enter the name of the item: Hot dogs
+Enter the unit price: 7.50
+Enter the quantity: 3
+
+Shopping Cart
+
+Item		Unit Price	Quantity	Total
+Potatoes	$5.00	2	$10.00
+Hot dogs	$7.50	3	$22.50
+
+Total Price: $32.50
+
+Continue shopping (y/n)? y
+Enter the name of the item: Buns
+Enter the unit price: 2.33
+Enter the quantity: 5
+
+Shopping Cart
+
+Item		Unit Price	Quantity	Total
+Potatoes	$5.00	2	$10.00
+Hot dogs	$7.50	3	$22.50
+Buns		$2.33	5	$11.65
+
+Total Price: $44.15
+
+Continue shopping (y/n)? y
+Enter the name of the item: Cookies
+Enter the unit price: 1.50
+Enter the quantity: 6
+
+Shopping Cart
+
+Item		Unit Price	Quantity	Total
+Potatoes	$5.00	2	$10.00
+Hot dogs	$7.50	3	$22.50
+Buns		$2.33	5	$11.65
+Cookies		$1.50	6	$9.00
+
+Total Price: $53.15
+
+Continue shopping (y/n)? y
+Enter the name of the item: Yams
+Enter the unit price: 1
+Enter the quantity: 7
+
+Shopping Cart
+
+Item		Unit Price	Quantity	Total
+Potatoes	$5.00	2	$10.00
+Hot dogs	$7.50	3	$22.50
+Buns		$2.33	5	$11.65
+Cookies		$1.50	6	$9.00
+Yams		$1.00	7	$7.00
+
+Total Price: $60.15
+
+Continue shopping (y/n)? n
