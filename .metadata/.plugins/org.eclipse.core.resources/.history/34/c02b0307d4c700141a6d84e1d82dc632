@@ -1,0 +1,23 @@
+/**
+ * DogTest.java
+ * @author Vivian Fang, period 1
+ * A simple test class that creates a Dog and makes it speak.
+ * Also prints out avg. breed weight.
+ *
+ */
+
+public class DogTest
+{
+    public static void main(String[] args)
+    {
+    	//Dog dog = new Dog("Spike"); - as an abstract class, you can't instantiate instances of Dog
+    	Labrador pie = new Labrador("Pie", "yellow");
+    	Yorkshire sharkie = new Yorkshire("Sharkie");
+    	System.out.println(sharkie.getName() + " says " + sharkie.speak());
+    	System.out.println(sharkie.avgBreedWeight());
+    	
+    	System.out.println(pie.getName() + " says " + pie.speak());
+    	System.out.println(pie.avgBreedWeight());
+    	
+    }
+}
