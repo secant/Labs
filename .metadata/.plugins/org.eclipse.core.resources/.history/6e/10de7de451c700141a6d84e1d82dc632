@@ -1,0 +1,39 @@
+
+public class SortedIntList extends IntList
+{
+	public SortedIntList(int size)
+	{
+		super(size);
+	}
+	
+	public void add(int number)
+	{
+		int sortCount = 0;
+		int i = list[0];
+		if(numElements > list.length)
+		{
+			expand();
+		}
+		while(i <= number)
+		{
+			i = list[sortCount];
+			if (i >= number)
+			{
+				list[sortCount] = number;
+			}
+			sortCount++;
+		}
+		numElements++;
+		sortCount = 0;
+	}
+	
+	public void expand()
+	{
+		int[] temp = new int[list.length + 10];
+		for(int i = 0; i < list.length; i++)
+		{
+			temp[i] = list[i];
+		}
+		list = temp;
+	}
+}

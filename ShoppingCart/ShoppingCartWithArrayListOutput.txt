@@ -1,0 +1,30 @@
+Enter the name of the item: potatoes
+Enter the unit price: 2.25
+Enter the quantity: 7
+potatoes	$2.25	7	$15.75
+Total Price: $15.75
+Continue shopping (y/n)? y
+Enter the name of the item: instant ramen
+Enter the unit price: .99
+Enter the quantity: 6
+potatoes	$2.25	7	$15.75
+instant ramen	$0.99	6	$5.94
+Total Price: $21.69
+Continue shopping (y/n)? y
+Enter the name of the item: canned corn
+Enter the unit price: 1.25
+Enter the quantity: 4
+potatoes	$2.25	7	$15.75
+instant ramen	$0.99	6	$5.94
+canned corn	$1.25	4	$5.00
+Total Price: $26.69
+Continue shopping (y/n)? y
+Enter the name of the item: candy bar
+Enter the unit price: 1.00
+Enter the quantity: 6
+potatoes	$2.25	7	$15.75
+instant ramen	$0.99	6	$5.94
+canned corn	$1.25	4	$5.00
+candy bar	$1.00	6	$6.00
+Total Price: $32.69
+Continue shopping (y/n)? n
